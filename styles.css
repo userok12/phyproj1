@@ -1,0 +1,57 @@
+/* Базові стилі для сторінки */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    transition: background-color 0.5s ease;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.slide {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slide.active {
+    display: block;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Адаптація для мобільних пристроїв */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .slide {
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
