@@ -21,5 +21,5 @@ document.addEventListener('DOMContentLoaded', () => {
         showSlide(currentSlide);
     });
 
-    showSlide(currentSlide); // Показуємо перший слайд спочатку
+    showSlide(currentSlide);
 });
